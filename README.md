@@ -1,4 +1,4 @@
-#create a new repository on the command line
+# create a new repository on the command line
 
 echo "# 1" >> README.md
 
@@ -12,13 +12,13 @@ git remote add origin https://github.com/liaofde/1.git
 git push -u origin master
 
 
-#push an existing repository from the command line
+# push an existing repository from the command line
 
 git remote add origin https://github.com/liaofde/1.git
 
 git push -u origin master
 
-#本地修改远程仓库地址
+# 本地修改远程仓库地址
 
 git remote set-url origin newAddress  
 
@@ -28,7 +28,7 @@ git remote rm origin
 
 git remote add origin newAddress  
 
-#找回git reset中只 add,未commit的内容  
+# 找回git reset中只 add,未commit的内容  
 git reset后，找回git中只add,未commit的内容。 
 一般如果commit过，即使reset。也可以通过git log/git reflog查看提交记录，然后git reset --XXX。
 但是没有commit就不行了。
